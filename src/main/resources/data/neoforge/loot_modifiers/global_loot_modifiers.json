@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "entries": [
+    "forintmod:shipwreck_treasure",
+    "forintmod:desert_pyramid",
+    "forintmod:village_plains_house",
+    "forintmod:village_desert_house",
+    "forintmod:village_savanna_house",
+    "forintmod:village_taiga_house",
+    "forintmod:village_snowy_house"
+  ]
+}

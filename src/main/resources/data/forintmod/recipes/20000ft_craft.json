@@ -20,7 +20,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "forintmod:forint20000"
+    "id": "forintmod:forint20000"
   },
   "show_notification": true
 }

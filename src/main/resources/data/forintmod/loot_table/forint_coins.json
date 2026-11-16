@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0.0,
+        "max": 2.0
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "forintmod:forint1", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 8.0 } }] },
+        { "type": "minecraft:item", "name": "forintmod:forint2", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 6.0 } }] },
+        { "type": "minecraft:item", "name": "forintmod:forint5", "weight": 15, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 5.0 } }] },
+        { "type": "minecraft:item", "name": "forintmod:forint10", "weight": 15, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } }] },
+        { "type": "minecraft:item", "name": "forintmod:forint20", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } }] },
+        { "type": "minecraft:item", "name": "forintmod:forint50", "weight": 8, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } }] },
+        { "type": "minecraft:item", "name": "forintmod:forint100", "weight": 5, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 } }] },
+        { "type": "minecraft:item", "name": "forintmod:forint200", "weight": 3 },
+        { "type": "minecraft:item", "name": "forintmod:forint5f", "weight": 1 },
+        { "type": "minecraft:item", "name": "forintmod:forint5o", "weight": 1 },
+        { "type": "minecraft:item", "name": "forintmod:forint5r", "weight": 1 },
+        { "type": "minecraft:item", "name": "forintmod:forint5i", "weight": 1 },
+        { "type": "minecraft:item", "name": "forintmod:forint5n", "weight": 1 },
+        { "type": "minecraft:item", "name": "forintmod:forint5t", "weight": 1 }
+      ]
+    }
+  ]
+}

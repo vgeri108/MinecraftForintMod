@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 1,
-    "item": "forintmod:forint100"
+    "id": "forintmod:forint100"
   },
   "show_notification": true
 }
