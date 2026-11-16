@@ -2,36 +2,35 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "prepareRunClientCompile",
-      "type": "shell",
-      "command": "./gradlew prepareRunClientCompile",
+      "label": "Build NeoForge mod",
+      "type": "process",
+      "command": "gradlew.bat",
+      "args": ["build"],
       "options": {
         "cwd": "${workspaceFolder}"
-      }
+      },
+      "group": "build",
+      "problemMatcher": []
     },
     {
-      "label": "prepareRunDataCompile",
-      "type": "shell",
-      "command": "./gradlew prepareRunDataCompile",
+      "label": "Run Minecraft client",
+      "type": "process",
+      "command": "gradlew.bat",
+      "args": ["runClient"],
       "options": {
         "cwd": "${workspaceFolder}"
-      }
+      },
+      "problemMatcher": []
     },
     {
-      "label": "prepareRunGameTestServerCompile",
-      "type": "shell",
-      "command": "./gradlew prepareRunGameTestServerCompile",
+      "label": "Run Minecraft server",
+      "type": "process",
+      "command": "gradlew.bat",
+      "args": ["runServer"],
       "options": {
         "cwd": "${workspaceFolder}"
-      }
-    },
-    {
-      "label": "prepareRunServerCompile",
-      "type": "shell",
-      "command": "./gradlew prepareRunServerCompile",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      }
+      },
+      "problemMatcher": []
     }
   ]
 }
